@@ -1,16 +1,35 @@
-# React + Vite
+# 🌐 Vedant Singh — Developer Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to the source code of my **personal developer portfolio**, built using modern web technologies.  
+This portfolio showcases my projects, skills, and creative experiments as a full-stack web developer.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Live Demo
+🔗 **[View Portfolio](https://vedant-portfolio-umber.vercel.app/)**
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🧠 About the Project
+This is a fully responsive and animated portfolio website designed to highlight my work, experience, and online presence.  
+It features smooth scroll animations, dynamic project sections, and an interactive background.
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠️ Tech Stack
+- ⚛️ **React.js** — Frontend framework  
+- 💨 **Tailwind CSS** — Modern utility-first styling  
+- 🎞️ **Framer Motion** — Page and element animations  
+- 🧩 **React Icons** — Beautiful iconography  
+- 🌈 **Vercel** — Deployment and hosting  
+
+---
+
+## ✨ Features
+- 🔹 Smooth animations and transitions  
+- 🔹 Responsive design (mobile-first)  
+- 🔹 Animated particle background  
+- 🔹 Dynamic project showcase with live links  
+- 🔹 Modern UI with gradient and glass effects  
+
+---
