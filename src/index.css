@@ -1,10 +1,22 @@
 @import "tailwindcss";
 
-body{
-  font-family: "poppins", sans-serif; 
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  overflow-x: clip;
 }
 
-h1, h2{
+body {
+  font-family: "poppins", sans-serif;
+  min-height: 100vh;
+}
+
+#root {
+  isolation: isolate; /* Creates stacking context for sticky */
+}
+
+h1, h2 {
   font-family: "Roboto", sans-serif;
 }
 

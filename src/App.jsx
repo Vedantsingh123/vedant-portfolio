@@ -18,7 +18,7 @@ const App = () => {
     <>
       {!introDone && <IntroAnimation onFinish={() => setIntroDone(true)} />}
       {introDone && (
-        <div className='relative text-white'>
+        <div className='relative text-white '>
           {/* <Particlesbackground/> */}
           <CustomCursor />
           <NavBar />

@@ -27,9 +27,18 @@ const glowVariants = {
 
 const Footer = () => {
   return (
-    <div className="relative z-10 px-4 sm:px-6 md:px-8 bg-black lg:px-10 py-16 md:py-20 flex flex-col items-center text-center space-y-6">
-      <div class="absolute top-0  -left-24 w-[600px] h-[200px] from-[#0D58CC] via-cyan-300 to-emerald-400 opacity-15 blur-2xl rounded-full -z-10 bg-gradient-to-r"></div>
-      <div class="absolute bottom-0 right-0 w-[600px] h-[200px] from-pink-500 to-blue-500 opacity-15 blur-2xl rounded-full -z-10 bg-gradient-to-r"></div>
+    <div className="relative z-10 px-4 sm:px-6 md:px-8 bg-black lg:px-10 py-16 md:py-20 flex flex-col items-center text-center space-y-6 overflow-hidden">
+<div className="absolute top-0 -left-24 
+  w-[400px] h-[150px] sm:w-[500px] sm:h-[180px] md:w-[600px] md:h-[200px]
+  from-[#0D58CC] via-cyan-300 to-emerald-400 
+  opacity-15 blur-2xl rounded-full -z-10 bg-gradient-to-r">
+</div>
+
+<div className="absolute bottom-0 right-0 
+  w-[400px] h-[150px] sm:w-[500px] sm:h-[180px] md:w-[600px] md:h-[200px]
+  from-pink-500 to-blue-500 
+  opacity-15 blur-2xl rounded-full -z-10 bg-gradient-to-r">
+</div>
 
       
       <motion.div variants={fadeUp} initial="hidden" whileInView="visible" viewport={{ once: false, amount: 0.4 }} className="w-full">

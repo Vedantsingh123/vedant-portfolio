@@ -56,7 +56,7 @@ const activeProject = projects[activeIndex];
   return (
     <section id='project' ref={sceneRef} className='relative text-white'
     style={{
-      height: `${100*projects.length}vh`,
+      height: `${100*projects.length}vh` ,
       backgroundColor: activeProject.bgColor,
       transition: "background-color 400ms ease"
     }}
