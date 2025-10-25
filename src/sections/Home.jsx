@@ -51,7 +51,7 @@ const Home = () => {
           <div className='w-full lg:pr-24 mx-auto max-w-[48rem]'>
             <motion.div className='mb-3 text-xl sm:text-2xl md:text-3xl font-semibold lg:text-4xl text-white tracking-wide min-h-[1.6em]'
               initial={{ opacity: 0, y: 12 }}
-              animate={{ opacity: 1, y: 0 }}
+              animate={{ opacity: 1, y: 0 }}  
               transition={{ duration: 0.6 }}
             >
               <span>
@@ -85,8 +85,9 @@ const Home = () => {
               transition={{ delay: 0.8, duration: 0.8 }}
             >
               <a href="#project" className='px-6 py-3 rounded-full font-medium text-lg text-white bg-gradient-to-r from-[#1cd8d2] via-[#00bf8F] to-[#302b63] shadow-lg hover:scale-105 transition-all'>View My Work</a>
-              <a href="/Vedant-Singh-Resume.pdf"
-                download
+              <a href="/Vedant_Singh_Resume.pdf"
+                target="_blank"
+                rel="noopener noreferrer"
                 className='px-6 py-3 rounded-full text-lg font-medium text-black bg-white hover:bg-gray-200 shadow-lg hover:scale-105 transition-all'
               >My Resume</a>
             </motion.div>

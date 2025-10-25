@@ -1,6 +1,6 @@
 import React from 'react';
 import {motion} from 'framer-motion';
-import photo from '../assets/photo.jpg'
+import profile from '../assets/profile.jpg'
 import ParticlesBackground from '../components/ParticlesBackground';
 const About = () => {
   const stats = [
@@ -33,7 +33,7 @@ const About = () => {
           whileHover={{scale: 1.02}}
           transition={{type:"spring", stiffness: 200, damping: 18}}
           >
-            <img src={photo} alt="profile" className='absolute inset-0 '/>
+            <img src={profile} alt="profile" className='absolute inset-0 '/>
           </motion.div>
           <div className='flex-1 flex flex-col justify-center text-center md:text-left '>
             <h2 className='text-4xl sm:text-5xl font-extrabold tracking-tight bg-clip-text text-transparent bg-gradient-to-r from-[#1cd8d2] via-[#00bf8f] to-[#1cd8d2]'>Vedant Singh</h2>
