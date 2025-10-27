@@ -67,6 +67,8 @@ const Contact = () => {
                 type="text"
                 name="user_name"
                 placeholder="Your Name"
+                required
+                minLength={2}
                 className="p-3 rounded-md bg-white/10 text-white border border-gray-500 focus:outline-none focus:border-blue-500"
               />
             </div>
@@ -79,6 +81,8 @@ const Contact = () => {
                 type="email"
                 name="user_email"
                 placeholder="Your Email"
+                required
+                pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"
                 className="p-3 rounded-md bg-white/10 text-white border border-gray-500 focus:outline-none focus:border-blue-500"
               />
             </div>
@@ -89,6 +93,7 @@ const Contact = () => {
               </label>
               <textarea
                 name="message"
+                required
                 placeholder="Enter Your Message..."
                 rows={5}
                 className="p-3 rounded-md bg-white/10 border border-gray-500 focus:outline-none focus:border-blue-500"
