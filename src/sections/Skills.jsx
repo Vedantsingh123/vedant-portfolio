@@ -1,6 +1,6 @@
 import React, { useEffect, useRef, useState } from 'react';
 import { FaJava, FaJsSquare, FaHtml5, FaCss3Alt, FaReact, FaNodeJs, FaGithub} from "react-icons/fa";
-import { SiRedux, SiExpress, SiTailwindcss, SiBootstrap, SiMysql, SiMongodb} from "react-icons/si";
+import { SiRedux,SiNextdotjs, SiExpress, SiTailwindcss, SiBootstrap, SiMysql, SiMongodb} from "react-icons/si";
 import {motion, useMotionValue} from 'framer-motion';
 
 const Skills = () => {
@@ -19,6 +19,7 @@ const Skills = () => {
   { icon: <SiExpress />, name: "ExpressJS" },
   { icon: <SiBootstrap />, name: "Bootstrap" },
   { icon: <SiTailwindcss />, name: "Tailwind CSS" },
+  { icon: <SiNextdotjs />, name: "NextJS" },
 
   // Databases
   { icon: <SiMongodb />, name: "MongoDB" },
